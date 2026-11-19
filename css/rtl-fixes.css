@@ -1,0 +1,9 @@
+/* Right-to-left fixes for Arabic and Hebrew pages */
+html[dir="rtl"] .carousel .carousel-control-prev .carousel-control-prev-icon{left:auto;right:0;border-left:1px solid;border-right:0;border-radius:50px 0 0 50px}
+html[dir="rtl"] .carousel .carousel-control-next .carousel-control-next-icon{right:auto;left:0;border-right:1px solid;border-left:0;border-radius:0 50px 50px 0}
+html[dir="rtl"] body{overflow-x:hidden}
+@media (min-width: 993px){
+html[dir="rtl"] .carousel-caption-1-content{padding-right:0;padding-left:100px}
+html[dir="rtl"] .carousel-caption-2-content{padding-left:0;padding-right:100px}
+}
+html[dir="rtl"] .carousel-caption-1-content,html[dir="rtl"] .carousel-caption-2-content{box-sizing:border-box;max-width:100%}
