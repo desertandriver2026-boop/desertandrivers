@@ -228,12 +228,9 @@ src="https://www.facebook.com/tr?id=362795157788748&ev=PageView&noscript=1"
       <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
         <div class="p-4 rounded-2xl card-dr shadow-soft">
           <h3 class="mb-3">Send a message</h3>
-          <p class="text-body mb-4">
-            This form is a simple template. If your site is static, it won’t send emails without a backend.
-            For now, use email or WhatsApp — or connect the form to a service like Formspree later.
-          </p>
+          <p class="text-body mb-4">Fill in the form and press send — your email app opens with your message ready to go. Prefer WhatsApp? Use the button above.</p>
 
-          <form onsubmit="return false;">
+          <form id="drContactForm">
             <div class="row g-3">
               <div class="col-md-6">
                 <input type="text" class="form-control" placeholder="Your name">
@@ -248,9 +245,7 @@ src="https://www.facebook.com/tr?id=362795157788748&ev=PageView&noscript=1"
                 <textarea class="form-control" rows="6" placeholder="Tell us your timeframe, interests, and travel style..."></textarea>
               </div>
               <div class="col-12">
-                <a class="btn btn-primary rounded-pill py-3 px-4 w-100 d-inline-flex justify-content-center" href="mailto:info@desertandriver.com?subject=Desert%20%26%20River%20Enquiry">
-                  Email us instead
-                </a>
+                <button type="submit" class="btn btn-primary rounded-pill py-3 px-4 w-100 d-inline-flex justify-content-center">Send message</button>
               </div>
             </div>
           </form>
@@ -431,5 +426,6 @@ src="https://www.facebook.com/tr?id=362795157788748&ev=PageView&noscript=1"
   };
 })();
 </script>
+<script>(function(){var f=document.getElementById('drContactForm');if(!f)return;f.addEventListener('submit',function(e){e.preventDefault();var i=f.querySelectorAll('input,textarea');var name=i[0].value.trim(),mail=i[1].value.trim(),sub=i[2].value.trim(),msg=i[3].value.trim();var body='Name: '+name+'\nEmail: '+mail+'\n\n'+msg;window.location.href='mailto:info@desertandriver.com?subject='+encodeURIComponent(sub||'Desert & River enquiry')+'&body='+encodeURIComponent(body);});})();</script>
 </body>
 </html>
