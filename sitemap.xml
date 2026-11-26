@@ -56,6 +56,12 @@
   </url>
 
   <url>
+    <loc>https://desertandriver.com/trip-1-day-serabit-el-khadim-nawamis</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
     <loc>https://desertandriver.com/trip-1-day-st-catherine-monastery</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -266,6 +272,12 @@
   </url>
 
   <url>
+    <loc>https://desertandriver.com/nl/trip-1-day-serabit-el-khadim-nawamis</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
     <loc>https://desertandriver.com/nl/trip-1-day-st-catherine-monastery</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -426,6 +438,12 @@
 
   <url>
     <loc>https://desertandriver.com/de/trip-1-day-cave-painting-war-scene</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://desertandriver.com/de/trip-1-day-serabit-el-khadim-nawamis</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -596,6 +614,12 @@
   </url>
 
   <url>
+    <loc>https://desertandriver.com/ar/trip-1-day-serabit-el-khadim-nawamis</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
     <loc>https://desertandriver.com/ar/trip-1-day-st-catherine-monastery</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -756,6 +780,12 @@
 
   <url>
     <loc>https://desertandriver.com/he/trip-1-day-cave-painting-war-scene</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://desertandriver.com/he/trip-1-day-serabit-el-khadim-nawamis</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
